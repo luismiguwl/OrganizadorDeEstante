@@ -363,13 +363,7 @@ public class OrganizadorDeEstante {
     }
 
     public static void ordenarAlfabeticamente() {
-
-        // Professor, o método de ordenação anterior realmente funcionava na base da sorte
-        // Forcei um teste maior e o código lançou um erro de ordenação
-        // Obrigado por ter me alertado sobre isso
-        // 
-        // Esse novo algoritmo é melhorado e mais eficiente que o anterior
-        // Só ordena tal categoria se houver mais de um livro na prateleira
+        
         String auxiliar;
         boolean houveTroca;
 
@@ -606,13 +600,4 @@ public class OrganizadorDeEstante {
     public static String[][] livrosNaPrateleira = new String[categorias.length][quantidadeMaximaDeLivrosPorPrateleira];
 
     public static Scanner s = new Scanner(System.in);
-
-    /* AGRADECIMENTO */
-    // O senhor é foda e eu sou muito feliz por ter aula contigo
-    // Tu tem uma didática impecável e me inspira a codificar de uma forma melhor
-    // Agradeço por ter olhado meus códigos e me alertado quando fazia algo errado
-    // Me ajudou bastante a moldar a forma na qual eu programo hoje
-    // 
-    // Muito obrigado por ter me ensinado tanto em tão pouco tempo
-    // Não vejo a hora de ter OOP no 3º período :)
 }
